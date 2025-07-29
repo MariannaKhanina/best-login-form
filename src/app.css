@@ -3,26 +3,26 @@
 @custom-media --desktop (min-width: 769px);
 
 :root {
-    /* Фон */
+    /* Background */
     --color-background: #121212;
     --color-surface: #1e1e1e;
 
-    /* Текст */
+    /* Text */
     --color-text-primary: #e0e0e0;
     --color-text-secondary: #a0a0a0;
     --color-text-heading: #ffffff;
 
-    /* Ссылки */
+    /* Links */
     --color-link: #4a90e2;
     --color-link-hover: #6baef5;
 
-    /* Кнопки */
+    /* Buttons */
     --color-btn-primary: #2979ff;
     --color-btn-primary-hover: #5393ff;
     --color-btn-text: #ffffff;
-    --color-btn-disabled: #3a3a3a; /* Подавленный серый */
+    --color-btn-disabled: #3a3a3a; /* Disabled */
 
-    /* Инпуты */
+    /* Inputs */
     --color-input-bg: #1c1c1c;
     --color-input-border: #333333;
     --color-input-text: #e0e0e0;
@@ -30,7 +30,7 @@
     --color-input-focus: #4a90e2;
     --color-input-autofill: #2a2a2a;
 
-    /* Статусы */
+    /* Statuses */
     --color-error: #ff5252;
     --color-success: #4caf50;
     --color-warning: #ffc107;
@@ -49,9 +49,37 @@
     --border-radius-m: 0.5rem;
 
     @media (prefers-color-scheme: light) {
-        --color-text: #1e293b;
-        --color-background: #f8fafc;
+        /* Background */
+        --color-background: #f9f9f9;
         --color-surface: #ffffff;
+
+        /* Text */
+        --color-text-primary: #2c2c2c;
+        --color-text-secondary: #555555;
+        --color-text-heading: #000000;
+
+        /* Links */
+        --color-link: #1a73e8;
+        --color-link-hover: #4a90e2;
+
+        /* Buttons */
+        --color-btn-primary: #2979ff;
+        --color-btn-primary-hover: #5393ff;
+        --color-btn-text: #ffffff;
+        --color-btn-disabled: #c4c4c4; /* Disabled */
+
+        /* Inputs */
+        --color-input-bg: #ffffff;
+        --color-input-border: #cccccc;
+        --color-input-text: #2c2c2c;
+        --color-input-placeholder: #999999;
+        --color-input-focus: #1a73e8;
+        --color-input-autofill: #e6f0ff;
+
+        /* Статусы */
+        --color-error: #d32f2f;
+        --color-success: #388e3c;
+        --color-warning: #ffa000;
     }
 }
 
